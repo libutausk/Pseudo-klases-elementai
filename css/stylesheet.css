@@ -1,0 +1,147 @@
+	.firstA:hover {
+            background: red;
+        }
+
+        .secondA:visited {
+            color: #00FF00;
+        }
+
+        .thirdA:active {
+            background-color: blue;
+        }
+
+        .fourthA:link {
+            background-color: lightcyan;
+        }
+
+        nav {
+            overflow: hidden;
+            background-color: darkgray;
+            padding-left: 15px;
+        }
+
+        nav a {
+            float: left;
+            font-size: 14px;
+            padding: 25px 16px;
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav a:visited {
+            color: #ccc;
+        }
+
+        nav a:visited {
+            color: #fff;
+        }
+
+        nav a:hover {
+            background-color: lightblue;
+
+        }
+
+        nav a:active {
+            color: darkblue;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            background: orange;
+        }
+
+        .pirma::before {
+            content: "Text before... ";
+            color: red;
+        }
+
+        .antra::after {
+            content: " Text after...";
+            color: red;
+        }
+
+        .trecia::before {
+            content: url(img/clock.png);
+
+        }
+
+        .trecia::after {
+            content: url(img/clock.png);
+        }
+
+        .ketvirta::before {
+            content: " ";
+            display: inline-block;
+            height: 12px;
+            width: 150px;
+            background: green;
+        }
+
+        .penkta::after {
+            content: " ";
+            display: inline-block;
+            height: 12px;
+            width: 150px;
+            background: green;
+        }
+
+        .selectionElement::selection {
+            color: red;
+            background: yellow;
+        }
+
+        .firstLetter::first-letter {
+            font-size: 50px;
+            color: crimson;
+        }
+
+        .firstLine::first-line {
+            background: orange;
+            font-weight: 600;
+        }
+
+        .selectorODD li:nth-child(odd) {
+            background: orange;
+        }
+
+        .selectorEVEN li:nth-child(even) {
+            background: orange;
+        }
+
+        .chosenElement li:nth-child(2) {
+            font-size: 26px;
+        }
+
+        .chosenElement li:nth-child(3) {
+            background: orange;
+        }
+
+        .chosenElement li:nth-child(5) {
+            color: blue;
+            font-weight: 600;
+        }
+
+        .firstElement li:first-child {
+            color: orange;
+        }
+
+        .lastElement li:last-child {
+            color: orange;
+        }
+
+        .colorDiv:hover {
+            background: red;
+            transition: all 2s;
+        }
+
+        .sizeDiv:hover {
+            width: 100%;
+            transition: width 2s;
+        }
+
+        .positionDiv:hover {
+            position: absolute;
+            left: 100px;
+        }
